@@ -1,0 +1,18 @@
+This summarizes the basic GitHub commands. Tutorial, https://try.github.io/
+
+- git init : Initialize repository This create an empty repository; the repository is a hidden directory where Git operates.
+- git status : Check the status of the repository. lists all new files and directories. Also checks changes that we are about to commit
+- git add <file/directory name> : Keep track of all the new files in the git repo. this adds files that are going to be committed. So far, files here are in the staging area.
+- git commit -m "[summary of changes]" Commit changes to the repo:
+- git add '*.txt', Add files of the same kind:  this is called a wild card, it adds all files of the kind .txt that are in the folder to the repo.
+- git log Summarize all changes made so far:
+
+- So far, none of the changes are on the GitHub server. This is all local. We need to add a remote repo to.
+
+- git remote add origin <remote repo url> : Create remote repo:  The name of the local branch is master by default.
+- git push -u origin master : push to remote repo: 
+- git pull origin master : Check changes made to repo by other people (or you):
+
+- git diff : Check what is different in repo: use commands HEAD to check differences with our last commit, git diff HEAD
+- git diff --staged : Check what is different in stages documents. If nothing is staged, this command returns nothing.
+
