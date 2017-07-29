@@ -21,8 +21,4 @@ This summarizes the basic GitHub commands. Tutorial, https://try.github.io/
 - git branch <new branch> : creates a new branch (copy of the repo), so that we can do work there
 - git branch : checks the number of branches
 - git checkout <branch name> : switches to the <branch name> branch
-- git merge clean_up : merges changes made from one branch into the current branch (after a merge, do a push to push the merge)
-- git branch -d clean_up : delete the clean_up branch
-
-- This concludes the main commands
 
