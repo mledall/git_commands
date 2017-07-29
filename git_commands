@@ -8,7 +8,10 @@ This summarizes the basic GitHub commands. Tutorial, https://try.github.io/
 - Summarize all changes made so far: git log
 
 - So far, none of the changes are on the GitHub server. This is all local. We need to add a remote repo to.
-- Create remote repo: git remote add [name of remote repo] https://github.com/[location of repo]. The name of the local branch is master by default.
-- push to remote repo: git push -u [name of remote repo] master
+- Create remote repo: git remote add origin <remote repo url>. The name of the local branch is master by default.
+- push to remote repo: git push -u origin master
 - Check changes made to repo by other people (or you): git pull origin master
+
+- Check what is different in repo: git diff , use commands HEAD to check differences with our last commit, git diff HEAD
+- Check what is different in stages documents: git diff --staged . If nothing is staged, this command returns nothing.
 
