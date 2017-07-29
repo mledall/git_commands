@@ -1,0 +1,9 @@
+This summarizes the basic GitHub commands. Tutorial, https://try.github.io/
+
+- Initialize repository: git init. This create an empty repository; the repository is a hidden directory where Git operates.
+- Check the status of the repository: git status, lists all new files and directories.
+- Keep track of all the new files in the git repo: git add [file/directory name], this adds files that are going to be committed. So far, files here are in the staging area.
+- Commit changes to the repo
+
+
+
