@@ -14,7 +14,7 @@ This summarizes the basic GitHub commands. Tutorial, https://try.github.io/
 - git pull origin master : Check changes made to repo by other people (or you):
 
 - git diff : Check what is different in repo: use commands HEAD to check differences with our last commit, git diff HEAD
-- git diff --staged : Check what is different in stages documents. If nothing is staged, this command returns nothing.
+- git diff --staged : Check what is different in staged documents. If nothing is staged, this command returns nothing.
 
 - git clone : clones remote repo to local repo
 
